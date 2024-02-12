@@ -49,7 +49,7 @@ const NSString *SBTUITunnelJsonMimeType = @"application/json";
 
 @implementation SBTUITestTunnelClient
 
-static NSTimeInterval SBTUITunneledApplicationDefaultTimeout = 30.0;
+static NSTimeInterval SBTUITunneledApplicationDefaultTimeout = 60.0;
 
 - (instancetype)initWithApplication:(XCUIApplication *)application
 {
